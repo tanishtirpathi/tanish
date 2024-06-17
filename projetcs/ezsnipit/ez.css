@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(20, 19, 26);
+}
+.topimg img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 0px 50px;
+  box-shadow: 2px 2px 12px rgb(0, 0, 0);
+}
+.topimg {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  margin-inline: 20px;
+}
+.topimg h3 {
+  font-size: 16px;
+  font-family: syne;
+  color: white;
+  font-weight: 800;
+}
+.body h1 {
+  font-size: 40px;
+  font-family: syne;
+  color: white;
+  font-weight: 800;
+  margin-top: 20px;
+  text-shadow: 2px 2px 2px rgb(0, 134, 112);
+  margin-inline: 20px;
+}
+.button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  margin-inline: 20px;
+}
+.button button {
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: syne;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  background: #000000;
+  transition: all 0.4s ease-in;
+  box-shadow: 2px 2px 12px rgb(32, 255, 218);
+}
+.button button:hover {
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: syne;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  background: #00000091;
+  box-shadow: 2px 2px 12px rgb(255, 255, 255);
+}
+
+.button button a {
+  text-decoration: none;
+  color: rgb(32, 255, 218);
+  font-size: 16px;
+  transition: all 0.4s ease-in;
+  font-family: syne;
+  font-weight: 700;
+}
+.button button:hover a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: syne;
+  font-weight: 700;
+}
+
+.slider {
+  display: flex;
+  margin: 40px 10px;
+  padding: 20px 30px;
+  overflow-x: scroll;
+}
+.slider img {
+  margin: 10px 30px;
+  height: 300px;
+  box-shadow: 4px 4px 20px rgb(32, 255, 218);
+  width: 560px;
+  transition: all 0.4s ease-in;
+}
+.slider img:hover {
+  margin: 10px 30px;
+  height: 300px;
+  box-shadow: 6px 6px 40px rgb(255, 255, 255);
+  width: 560px;
+}
+
+/* Style the entire scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #cf000000; /* Set the background color */
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: rgb(1, 95, 79); /* Set the thumb background color */
+  border-radius: 5px;
+  border: 1px solid rgb(255, 255, 255); /* Add rounded corners */
+}
+h2 {
+  font-size: 25px;
+  font-family: syne;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 2px 2px rgb(0, 122, 102);
+  font-weight: 800;
+  text-align: center;
+  margin: 40px 0px;
+}
+.logo img {
+  width: 300px;
+  height: 120px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text h4 {
+  margin: 40px 30px;
+  font-size: 17px;
+  font-family: syne;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
