@@ -26,11 +26,11 @@ nav {
   align-items: center;
   justify-content: space-around;
 }
-.light{
+.light {
   width: 17px;
   height: 17px;
   border-radius: 50%;
- mix-blend-mode: hard-light;
+  mix-blend-mode: hard-light;
   margin: 5px;
   cursor: pointer;
 }
@@ -304,12 +304,12 @@ section {
   padding: 0px 1px;
   margin: 10px;
   width: auto;
-  height: 230px;
+  height: 250px;
   transition: all 0.4s ease-in;
   box-sizing: border-box;
 }
 .card:hover {
-  box-shadow: 10px 10px 40px rgb(143, 190, 204);
+  box-shadow: 5px 5px 20px rgb(153, 153, 153);
 }
 .card h2 {
   font-family: syne;
@@ -525,7 +525,7 @@ section {
   margin: 0px 10px;
 }
 .boxes:hover {
-  box-shadow: 5px 5px 50px rgb(255, 255, 255);
+  box-shadow: 5px 5px 30px rgb(255, 255, 255);
   background-color: rgb(14, 14, 14);
   border-radius: 9px;
   padding: 30px 20px;
