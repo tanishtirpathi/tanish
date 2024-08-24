@@ -389,7 +389,7 @@ section {
 }
 .proj:hover {
   color: wheat;
-  box-shadow: 3px 3px 20px rgb(206, 206, 206);
+  box-shadow: 3px 3px 10px rgb(102, 102, 102);
   display: flex;
   padding: 5px 10px;
   margin: 10px 20px;
@@ -407,7 +407,7 @@ section {
   padding: 20px 0px;
   border-radius: 10px;
 
-  box-shadow: 2px 2px 20px rgb(182, 148, 221);
+  box-shadow: 2px 2px 20px rgb(61, 61, 61);
 }
 .proj:hover .text h5 {
   color: rgb(255, 255, 255);

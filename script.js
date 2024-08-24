@@ -25,10 +25,17 @@ function handleButtonClick() {
 
 // Add click event listener to the button
 document.getElementById("contact").addEventListener("click", handleButtonClick);
-
+  
 const YIIP = document.getElementsByClassName("internship");
 
 YIIP.addEventListener("click", () => {
   console.log("internship clicked");
   alert("sorry currently this is not working");
+});
+
+youtube = document.getElementById("youtubeproject");
+
+youtube.addEventListener("click", () => {
+  window.location.href =
+    "https://github.com/tanishtirpathi/youtube-video-manager";
 });
